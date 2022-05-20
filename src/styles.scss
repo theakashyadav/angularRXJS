@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+.techList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.techList li {
+   background: #ddd; 
+   border: 0.5px solid #ddd;
+   border-radius: 5px;
+   padding: 0.4rem;
+   margin: 0.5rem;
+}
+
+.techList.error li {
+    color: red;
+    background: rgba(227, 16, 16, 0.08);
+    border-color: red;
+}
+
+.techList.success li {
+    color: rgb(47, 255, 0);
+    background: rgba(44, 227, 16, 0.08);
+    border-color: rgb(34, 255, 0);
+}
